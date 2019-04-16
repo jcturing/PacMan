@@ -1,6 +1,7 @@
 <p>
 <img src = "https://github.com/jcturing/PacMan/blob/master/resources/sprites/PacmanIcon.png" aligh ="right" width ="50"/>
  </p>
+ 
 # PacMan
 This was my very first programming project, it was made within a college buddy [Edu](https://github.com/tito-kimbo)
 
