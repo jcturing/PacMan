@@ -1,5 +1,5 @@
 <p>
-  <img src="https://github.com/jcturing/PacMan/blob/master/resources/sprites/PacmanIcon.png" align="right" width="50"/>
+<img src = "Direccion de la Imagen.png" align = "right" width = "Tamaño"/>
 </p>
  
 # PacMan
