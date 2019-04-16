@@ -20,7 +20,7 @@ void waitSeconds(double seconds) {
 	al_rest(seconds);
 }
 
-void createDisplay(ALLEGRO_DISPLAY * &display, int const& screenHeight, int const& screenWidth, int const& screen_x_position, int const& screen_y_position, std::string screenName, screenType const& screenType) {
+void createDisplay(ALLEGRO_DISPLAY * &display, int const& screenHeight, int const& screenWidth, int const& screen_x_position, int const& screen_y_position, std::string screenName, screenType const& screenType, ALLEGRO_BITMAP *icon) {
 	int screenFlag = standard;
 
 	switch (screenType) {
@@ -35,6 +35,9 @@ void createDisplay(ALLEGRO_DISPLAY * &display, int const& screenHeight, int cons
 	display = al_create_display(screenHeight, screenWidth);
 	al_set_window_position(display, screen_x_position, screen_y_position);
 	al_set_window_title(display, screenName.c_str());
+	if (icon != nullptr) {
+		al_set_display_icon(display, icon);
+	}
 }
 
 void destroyDisplay(ALLEGRO_DISPLAY * &display) {

@@ -1,0 +1,36 @@
+CORRESPONDENCIA CARACTERES - MAPA
+---------------------------------
+'a' = CLOSED_WALL;
+'b' = HORIZ_OPEN_WALL;
+'c' = VERT_OPEN_WALL;
+'p' = INTERIOR_WALL;
+
+'B' = BLUE_GHOST;
+'R' = RED_GHOST;
+'O' = ORANGE_GHOST;
+'K' = PINK_GHOST;
+'P' = PLAYER;
+
+'u' = CHERRY;
+'v' = PINEAPPLE;
+'w' = WATERMELON;
+'y' = CHERRY;
+
+'I' = INITIAL;
+'*' = BONUS_POINT;
+'.' = PELLET;
+'+' = POWER_UP;
+' ' = EMPTY;
+'_' = EMPTY_WALL;
+-----------------------------------
+Crear archivo de mapa:
+-Crear archivo con extension .lv y abrirlo/editarlo con notepad++.
+-Se puede cambiar el orden de los mapas camiando el numero de nivel del nombre de archivo.
+-Poner o cambiar en el archivo config el numero de mapas.
+
+Observaciones a la hora de hacer un nuevo nivel:
+- Fijar un unico Initial a la hora de hacer una casa de fantasmas
+- Fijar un unico Bonus Point para que aparezcan frutas
+- Fijar obligatoriamente una posicion inicial del pacman y de los fantasmas
+- Fijar obligatoriamente una casa de fantasmas
+- Solo puede haber un tipo de cada fantasma por nivel

@@ -42,11 +42,13 @@ int main()
 	ALLEGRO_EVENT_QUEUE *event_queue = nullptr;
 	ALLEGRO_KEYBOARD_STATE keyState;
 	ALLEGRO_COLOR back_color = al_map_rgb(0, 0, 0);
+	ALLEGRO_BITMAP *icon;
 
 	//Initialize Programme
 
 	initializeFramework(true, true, false, true, true, true, 2);
-	createDisplay(display, SCREEN_WIDTH, SCREEN_HEIGHT, 0, 0, "Pacman", standard);
+	loadSprite(icon, "PacmanIcon.png");
+	createDisplay(display, SCREEN_WIDTH, SCREEN_HEIGHT, 0, 0, "Pacman", standard, icon);
 	initializeEvent(display, event_queue, true, true, false);
 
 	//Creating Classes

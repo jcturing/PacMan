@@ -70,7 +70,7 @@ enum boxType {
 	MESSAGEBOX_QUESTION = ALLEGRO_MESSAGEBOX_QUESTION
 };
 //Creates a display. | PARAMETERS: display pointer, height, width, positionX where it appears, positionY where it appears, ScreenTitle and the type of screen (see ScreenType enum for different types).
-void createDisplay(ALLEGRO_DISPLAY * &display, int const& screenHeight, int const& screenWidth, int const& screen_x_position, int const& screen_y_position, std::string screenName, screenType const& screenType);
+void createDisplay(ALLEGRO_DISPLAY * &display, int const& screenHeight, int const& screenWidth, int const& screen_x_position, int const& screen_y_position, std::string screenName, screenType const& screenType, ALLEGRO_BITMAP *icon);
 //Destroys a display. | PARAMETERS: display pointer.
 void destroyDisplay(ALLEGRO_DISPLAY * &display);
 //Creates and shows a message box. | PARAMETERS: display, title, heading, text.

@@ -9,19 +9,19 @@ c.aaaa.aa.aaaaaaaa.aa.aaaa.c
 c......aa....aa....aa......c
 pbbbbp.aaaaa aa aaaaa.pbbbbp
      c.aaaaa aa aaaaa.c     
-     c.aa          aa.c     
-     c.aa aaa  aaa aa.c     
-bbbbbp.aa a      a aa.pbbbbb
-      .   a      a aa.      
-bbbbbp.aa a      a aa.pbbbbb
+     c.aa    I     aa.c     
+     c.aa aaa--aaa aa.c     
+bbbbbp.aa a__  __a aa.pbbbbb
+      .   a__RB__a   .      
+bbbbbp.aa a__OK__a aa.pbbbbb
      c.aa aaaaaaaa aa.c     
-     c.aa    P     aa.c     
+     c.aa    *     aa.c     
      c.aa aaaaaaaa aa.c     
 pbbbbp.aa aaaaaaaa aa.pbbbbp
 c............aa............c
 c.aaaa.aaaaa.aa.aaaaa.aaaa.c
 c.aaaa.aaaaa.aa.aaaaa.aaaa.c
-c+..aa................aa..+c
+c+..aa........P.......aa..+c
 caa.aa.aa.aaaaaaaa.aa.aa.aac
 caa.aa.aa.aaaaaaaa.aa.aa.aac
 c......aa....aa....aa......c
