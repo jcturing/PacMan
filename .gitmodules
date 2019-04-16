@@ -1,4 +1,0 @@
-[submodule "BoolEngine"]
-	path = BoolEngine
-	url = https://github.com/jcturing/BoolEngine
-	branch = master
